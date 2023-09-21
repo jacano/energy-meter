@@ -39,6 +39,7 @@ sensor:
   - platform: wifi_signal
     name: Wifi Signal
   - platform: hlw8012
+    id: BL0937
     model: BL0937
     update_interval: 1s
     change_mode_every: 3

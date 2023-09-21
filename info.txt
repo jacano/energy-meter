@@ -5,3 +5,10 @@ esphome upload .\config.yaml --device 192.168.1.53
 git clone https://github.com/libretiny-eu/libretiny-esphome
 pip install -r requirements.txt
 pip install -e .
+
+
+prometheus --config.file=prometheus.yml
+http://localhost:9090/
+
+grafana-server
+http://localhost:3000/
