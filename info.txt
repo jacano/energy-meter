@@ -1,5 +1,5 @@
 esphome compile .\config.yaml
-esphome upload .\config.yaml --device 192.168.1.53
+esphome upload .\config.yaml --device energy-meter.local
 
 
 git clone https://github.com/libretiny-eu/libretiny-esphome
