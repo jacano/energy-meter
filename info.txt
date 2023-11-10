@@ -1,10 +1,7 @@
+https://esphome.io/guides/installing_esphome.html
+
 esphome compile .\config.yaml
 esphome upload .\config.yaml --device energy-meter.local
-
-
-git clone https://github.com/libretiny-eu/libretiny-esphome
-pip install -r requirements.txt
-pip install -e .
 
 
 prometheus --config.file=prometheus.yml
